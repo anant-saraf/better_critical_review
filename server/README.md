@@ -1,35 +1,3 @@
-# Project Details
-- Team members: Christine Parker & Ilija Ivanov
-- Contributors: We used some code from the gearup and the lecture repo as a template for setting up the server and testing
-- Repo: https://github.com/cs0320-f24/server-cparke28-iivanov
-
-# Design Choices
-- We used handlers for each endpoint
-- Load, view, and search all have a shared state (searcher), which allows for information about the file to be shared between them
-- We added methods that made it easier to load the csv in the searcher class, as well as a getter for the entire file including headers
-- We used Google Guava to implement caching the acs api responses
-- We used a proxy class for caching and passed the mock/real datasource classes into this proxy
-- We used a hashmap to keep track of the state codes so we don't have to query multiple times for them
-
-# Errors/Bugs
-None that we know of
-
-# Tests
-- loadcsv with a successful test, one without parameters, a nonexistent file, file outside of data/, and loading multiple
-- viewcsv with successful test, a file that hasn't been loaded
-- searchcsv with the column name given, with the column index given, with no column given, with the target not found
-- mixed interaction between csv endpoints
-- mock broadband with a successful run, one with an empty query, and one with a failing query
-- broadband with a successful run (different than mock data) and an invalid query, query with additional parameters
-
-# How to
-Run the server with the endpoints: loadcsv, viewcsv, searchcsv, or broadband.
-Loadcsv takes queries for the filepath and if the file has headers.
-Search csv takes the target word and a column identifier for the search.
-Broadband takes queries for the state and county (along with any additional parameters needed from the ACS API), and viewcsv doesn't take any query parameters.
-
-After inputting these queries, the server will return the appropriate response values.
-
 
 
 
