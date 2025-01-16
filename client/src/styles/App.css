@@ -1,0 +1,344 @@
+/* Basic reset to ensure consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0% 15%; 
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* ---------- HEADER with NAVIGATION + SIGN-IN ---------- */
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0px; /* Buttons come with 20px padding already */
+  padding-right: 0px; /* Buttons come with 20px padding already */
+
+  display: flex;
+  justify-content: space-between;  /* This will space out navigation and sign-in sections */
+  align-items: center;             /* Vertically center everything */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;  /* Keeps the buttons vertically centered */
+}
+
+.sign-in-status {
+  display: flex;
+  align-items: center;   /* Vertically centers the sign-in buttons */
+}
+
+/* ---------- SIGN-OUT with TITLE + ABOUT ---------- */
+
+.sign-out {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+
+}
+
+.title {
+  padding-top: 20vh;
+}
+
+.about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20%; 
+  padding-right: 20%; 
+}
+
+.lore p {
+  text-align: left; 
+  text-indent: 40px;
+  padding-bottom: 10px;
+}
+
+.faq p {
+  text-align: left; 
+  text-indent: 40px;
+  padding-bottom: 10px;
+}
+
+/* ---------- SIGN-IN with TITLE + SEARCH ---------- */
+
+.search {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.search-type {
+  margin-right: 20px;         /* Optional: Add space between search type and the search bar */
+}
+
+.search-bar {
+  display: flex;              /* Use Flexbox for search bar and button */
+  align-items: center;        /* Vertically center search bar and button */
+}
+
+.search-bar-input {
+  flex-grow: 1;               /* Make search bar take available space */
+}
+
+.current-search {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  text-align: center;
+}
+
+/* ---------- COURSE INFORMATION ---------- */
+
+.course-info {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+.semester-select {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.semester-type {
+  margin-left: 10px; 
+}
+
+/* ---------- COLUMNS ---------- */
+
+.columns {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  
+  display: flex;
+  justify-content: space-between;  /* This will space out navigation and sign-in sections */
+  align-items: baseline; 
+}
+
+.left-column {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.professor h3 {
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.course-description h3 {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.course-description p {
+  text-align: left; 
+  text-indent: 40px;
+  padding-bottom: 10px;
+}
+
+.comments {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0px; 
+  padding-right: 0px; 
+}
+
+.right-column {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.statistics h3 {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.demographics h3 {
+  text-align: left;
+  padding-left: 0px;
+}
+
+/* ---------- COMMENTS TABLE ---------- */
+
+.comments td:nth-child(1) {
+  width: 31%; 
+  text-align: left;
+  vertical-align: baseline;
+}
+
+.comments td:nth-child(2) {
+  width: 49%; 
+  text-align: left;
+  vertical-align: baseline;
+}
+
+.comments td:nth-child(3), th:nth-child(3) {
+  width: 10%; 
+}
+
+
+/* ---------- PROFILE ---------- */
+
+.full-profile button {
+  color: #FFFFFF; 
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.empty-profile p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.empty-profile button {
+  color: #FFFFFF; 
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.user-courses {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+.classes-taken p {
+  text-align: center; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.search-results {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+/* ---------- TABLE ---------- */
+
+table {
+  width: 100%; 
+  border-spacing: 0px;
+  border-collapse: collapse; /* Ensure borders collapse into a single line */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4; /* Light gray background for headers */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Highlight rows on hover */
+}
+
+.table-wrapper {
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  max-height: 300px; 
+  overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+/* ---------- TEXT INPUT FIELD ---------- */
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+}
+
+/* ---------- SELECT MENU ---------- */
+
+select {
+  padding: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+
+  appearance: none; /* Remove default dropdown arrow in most browsers */
+  cursor: pointer;
+}
+
+/* ---------- FORM RADIOS ---------- */
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.radio-group strong {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.radio-label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.radio-label input {
+  margin-right: 5px;
+}
+
+/* ---------- FORM ---------- */
+
+.form-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20%; 
+  padding-right: 20%; 
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;   
+}
+
+.form-section button {
+  color: #FFFFFF; 
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.submitted p {
+  text-align: center; 
+}

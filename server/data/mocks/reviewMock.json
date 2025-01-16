@@ -1,0 +1,13 @@
+{
+  "crn": "CSCI1234",
+  "uid": "user123",
+  "reviewText": "Great course!",
+  "courseRating": 4.5,
+  "professorRating": 4.7,
+  "karma": 0,
+  "concentrator": true,
+  "hours": 10.5,
+  "year": 2,
+  "isApproved": false
+}
+

@@ -1,0 +1,226 @@
+/* :root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #000000;
+}
+ 
+button {
+  font-size: large;
+  font-weight: bold;
+  font-family: inherit;
+  color: #000000; 
+
+  background: transparent;
+  padding: 10px 20px;
+  border: transparent;
+  cursor: pointer;
+
+  transition: color 0.5s;
+}
+
+button:hover {
+  color: crimson; 
+} */
+
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #000000;
+}
+
+button {
+  font-size: large;
+  font-weight: bold;
+  font-family: inherit;
+  color: #000000;
+
+  background: transparent;
+  padding: 10px 20px;
+  border: transparent;
+  cursor: pointer;
+
+  transition: color 0.5s;
+}
+
+button:hover {
+  color: crimson;
+}
+
+/* ---------- Light Mode Styles (default) ---------- */
+body {
+  background-color: #ffffff; /* White background for light mode */
+  color: #000000; /* Black text color for light mode */
+}
+
+header, .container, .content {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button {
+  color: #000000;
+  background: transparent;
+}
+
+button:hover {
+  color: crimson;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #BBBBBB; 
+}
+
+/* ---------- Dark Mode Styles ---------- */
+body.dark-mode {
+  background-color: #121212; /* Dark background for dark mode */
+  color: #e0e0e0; /* Light gray text color for dark mode */
+}
+
+body.dark-mode header, body.dark-mode .container, body.dark-mode .content {
+  background-color: #121212; /* Dark background for containers */
+  color: #e0e0e0; /* Light gray text color for dark mode */
+}
+
+body.dark-mode button {
+  color: #ffffff;
+  background: transparent;
+}
+
+body.dark-mode button:hover {
+  color: crimson;
+}
+
+body.dark-mode a {
+  color: #e0e0e0; /* Light gray text for links in dark mode */
+}
+
+body.dark-mode a:hover {
+  color: #bbbbbb; /* Slightly lighter color on hover for dark mode */
+}
+
+body.dark-mode .table-wrapper {
+  border-bottom: 1px solid #444; /* Dark border for table wrapper */
+}
+
+body.dark-mode table {
+  background-color: #222222; /* Dark background for tables */
+  color: #e0e0e0;
+}
+
+body.dark-mode input[type="text"] {
+  background-color: #333333;
+  color: #e0e0e0;
+  border: 1px solid #444444; /* Dark border for input fields */
+}
+
+body.dark-mode select {
+  background-color: #333333;
+  color: #e0e0e0;
+  border: 1px solid #444444; /* Dark border for select fields */
+}
+
+body.dark-mode .radio-group label {
+  color: #e0e0e0; /* Light gray text for radio buttons */
+}
+
+
+/* ---------- Other Adjustments for Light and Dark Mode Elements ---------- */
+
+/* Form elements */
+input[type="text"],
+select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode select {
+  border-color: #444444;
+}
+
+body.dark-mode .radio-label input {
+  margin-right: 5px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Default light border */
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+body.dark-mode table th {
+  background-color: #333333;
+}
+
+body.dark-mode table td {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode tr:nth-child(even) {
+  background-color: #3a3a3a; 
+}
+
+body.dark-mode tr:hover {
+  background-color: #444444; 
+}
+
+/* ---------- Theme Toggle Button Styling ---------- */
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}

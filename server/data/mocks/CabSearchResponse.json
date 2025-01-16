@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "code": "CSCI1010",
+      "crn": "12345",
+      "no": "01",
+      "srcdb": "202310",
+      "title": "Introduction to Computer Science",
+      "instr": "Jane Doe",
+      "changehash": "abc123"
+    },
+    {
+      "code": "CSCI1020",
+      "crn": "67890",
+      "no": "02",
+      "srcdb": "202310",
+      "title": "Data Structures and Algorithms",
+      "instr": "John Smith",
+      "changehash": "def456"
+    },
+    {
+      "code": "MATH0100",
+      "crn": "11223",
+      "no": "S01",
+      "srcdb": "202310",
+      "title": "Calculus I",
+      "instr": "TBA",
+      "changehash": "ghi789"
+    }
+  ]
+}

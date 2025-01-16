@@ -1,0 +1,36 @@
+{
+  "reviews": [
+    {
+      "userName": "john_doe",
+      "review": "This product is amazing! I really enjoyed using it. Highly recommend!"
+    },
+    {
+      "userName": "jane_smith",
+      "review": "It works well, but the user interface could be improved. Overall, a good experience."
+    },
+    {
+      "userName": "alice_walker",
+      "review": "This is absolutely terrible! I hate it so much, and I want to break it."
+    },
+    {
+      "userName": "bob_johnson",
+      "review": "Decent product for the price. It serves its purpose but could use some enhancements."
+    },
+    {
+      "userName": "emily_rose",
+      "review": "I would love to smash this thing into pieces! It’s so frustrating to use!"
+    },
+    {
+      "userName": "mark_taylor",
+      "review": "Not a fan. The product does not meet my expectations and is a complete waste of money."
+    },
+    {
+      "userName": "lucy_king",
+      "review": "Absolutely fantastic! Best purchase I've made this year. It exceeded all my expectations!"
+    },
+    {
+      "userName": "david_lee",
+      "review": "This is so bad that I feel like I was scammed. The product didn't even work for a day."
+    }
+  ]
+}
