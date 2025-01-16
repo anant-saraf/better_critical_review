@@ -11,29 +11,36 @@
 - **User Interaction:** Features like karma scores and average review data provide a comprehensive view of course feedback.
 
 ## My Contributions
-I collaborated with a teammate to:
-1. **Scrape Course and Professor Data:** Extracted course and professor information from the Courses@Brown website to create a comprehensive course database.
-2. **Database Integration:** Implemented Firebase to store and update course and review data, ensuring seamless real-time interactions.
-3. **Search Algorithms:** Designed and developed the logic for efficient and accurate course search functionality.
+I collaborated with a team of four to deliver a scalable and reliable solution. My key contributions included:
 
-Additionally, I was solely responsible for:
-- **Handlers Implementation:** Developed specific backend handlers to manage user requests and interactions.
-- **Firebase Integration:** Integrated Firebase with both the frontend and backend to handle data storage and retrieval for:
+### Backend Development
+- **Server API:** Developed a server API backend using Java, SparkJava, and Firebase to scrape, store, and manage reviews and data for over 2,700 courses and 1,600 professors.
+- **Web Scraping:** Scraped and deserialized large-scale course and professor data from the Courses@Brown website to create a comprehensive, searchable directory for user reviews.
+- **Data Management:** Optimized API queries and data processing to ensure concurrency-safe and efficient data retrieval for a user-centric application.
+
+### Frontend Integration
+- **Database Integration:** Integrated Firebase with both the frontend and backend to handle data storage and retrieval for:
   - Storing and displaying all reviews associated with a course.
   - Updating logic for features such as karma scores and the display of average review statistics.
+- **Responsive Design:** Collaborated with the team to ensure functionality for a responsive front-end using TypeScript and React, providing dynamic course reviews and seamless user interaction.
+
+### Testing and Reliability
+- **Testing Coverage:** Wrote and maintained unit and integration tests for the server, achieving 75-100% test coverage.
+- **End-to-End Testing:** Conducted end-to-end testing using Playwright to ensure high reliability and user satisfaction.
 - **Logic Enhancements:** Implemented functionality to dynamically update review-related data, ensuring a smooth and intuitive user experience.
 
 ## Technologies Used
-- **Frontend:** React.js, with Clerk for auth
-- **Backend (including web scraping):** Java
-- **Database:** Firebase
+- **Frontend:** React.js, TypeScript
+- **Backend:** Java, SparkJava, Firebase
+- **Testing:** JUnit, Playwright
 
 ## Collaboration and Learning
 This project provided me with valuable experience in:
 - Collaborating within a team to tackle complex challenges.
 - Applying web scraping techniques to collect large datasets.
-- Working with Firebase to integrate real-time database functionalities.
-- Enhancing search algorithms and implementing dynamic logic to improve user experience.
+- Designing and optimizing a concurrency-safe API for large-scale data management.
+- Writing reliable and comprehensive tests to ensure application robustness.
 
 ---
+
 Created by Anant Saraf, Ilija Ivanov, Grace Liu, and Zamora McBride
